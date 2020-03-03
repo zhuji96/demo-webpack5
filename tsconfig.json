@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es6",
+        "jsx": "react",
+        "importHelpers": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@public/*": ["public/*"]
+        }
+    },
+    "include": ["src/**/*", "public/**/*"],
+    "exclude": ["node_modules"]
+}
